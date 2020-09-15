@@ -5,6 +5,9 @@
 [![Travis job](https://img.shields.io/travis/oldani/HtmlTestRunner.svg)](https://travis-ci.org/oldani/HtmlTestRunner)
 
 
+**NOTE**: This Package fork by ``html-testRunner==1.2.1`` and fixed some bug.
+if ``html-testRunner`` release the new version, you should reinstall it
+``pip install html-testRunner -U``
 
 HtmlTest runner is a unittest test runner that saves results in a human-readable HTML format.
 
