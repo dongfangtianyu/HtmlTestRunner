@@ -13,7 +13,9 @@ HtmlTestRunner
 .. image:: https://img.shields.io/travis/oldani/HtmlTestRunner.svg
         :target: https://travis-ci.org/oldani/HtmlTestRunner
 
-
+**NOTE**: This Package fork by ``html-testRunner==1.2.1`` and fixed some bug.
+if ``html-testRunner`` release the new version, you should reinstall it
+``pip install html-testRunner -U``
 
 HtmlTest runner is a unittest test runner that save test results
 in Html files, for human readable presentation of results.
@@ -73,13 +75,13 @@ test_requirements = [
 ]
 
 setup(
-    name='html-testRunner',
-    version='1.2.1',
+    name='html-testRunner-df',
+    version='1.2.2',
     description="A Test Runner in python, for Human Readable HTML Reports",
     long_description=__doc__,
-    author="Ordanis Sanchez Suero",
-    author_email='ordanisanchez@gmail.com',
-    url='https://github.com/oldani/HtmlTestRunner',
+    author="Ordanis Sanchez Suero, dongfangtianyu",
+    author_email='ordanisanchez@gmail.com, ',
+    url='https://github.com/dongfangtianyu/HtmlTestRunner',
     packages=[
         'HtmlTestRunner',
     ],
@@ -95,7 +97,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     test_suite='tests',
     tests_require=test_requirements
