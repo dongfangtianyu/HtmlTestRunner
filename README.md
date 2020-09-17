@@ -1,13 +1,15 @@
 # HtmlTestRunner
 
 
-[![Pypi link](https://img.shields.io/pypi/v/html-testRunner.svg)](https://pypi.python.org/pypi/html-testRunner)
-[![Travis job](https://img.shields.io/travis/oldani/HtmlTestRunner.svg)](https://travis-ci.org/oldani/HtmlTestRunner)
+[![Pypi link](https://img.shields.io/pypi/v/html-testRunner-df.svg)](https://pypi.python.org/pypi/html-testRunner)
 
+-----------------
 
 **NOTE**: This Package fork by ``html-testRunner==1.2.1`` and fixed some bug.
-if ``html-testRunner`` release the new version, you should reinstall it
+
+**if html-testRunner release the new version, you should reinstall it**
 ``pip install html-testRunner -U``
+-----------------
 
 HtmlTest runner is a unittest test runner that saves results in a human-readable HTML format.
 
@@ -30,7 +32,7 @@ This Package was inspired by ``unittest-xml-reporting`` and
 To install HtmlTestRunner, run this command in your terminal:
 
 ```batch
-$ pip install html-testRunner
+$ pip install html-testRunner-df
 ```
 
 This is the preferred method to install HtmlTestRunner, as it will always install the most recent stable release.
